@@ -55,9 +55,17 @@
   width: 100%;
 }
 
+.success-img-wrapper {
+  position: relative;
+}
+
 @media(max-width:770px) {
 
   .box-wrapper {
     width: 100%;
+  }
+
+  .success-img-wrapper img {
+    width: 40%;
   }
 }

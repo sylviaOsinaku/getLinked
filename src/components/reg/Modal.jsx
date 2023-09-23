@@ -32,9 +32,13 @@ export default function BasicModal({ handleClose, openModal }) {
       >
         <Box sx={style} textAlign={"center"} className={classes["box-wrapper"]}>
           <img src={starPu} alt="" className="float-end" />
-          <div className="d-flex">
-            <img src={successDone} alt="" />
-            <img src={successMan} alt="" />
+          <div className={`${classes["success-img-wrapper"]} `}>
+            <img src={successDone} alt="" className="" />
+            <img
+              src={successMan}
+              alt=""
+              className="position-absolute start-50"
+            />
           </div>
           <Typography
             id="modal-modal-title"
