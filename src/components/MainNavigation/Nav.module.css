@@ -8,6 +8,11 @@
   align-items: center;
 }
 
+.nav-wrapper a:hover {
+  background: -webkit-linear-gradient(70deg, rgba(255, 38, 185, 1) 0%, rgba(212, 52, 254, 1) 50%, rgba(144, 58, 255, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 
 .nav-container {

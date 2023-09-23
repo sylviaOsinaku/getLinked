@@ -38,7 +38,9 @@
   margin-bottom: 2em;
 }
 
-
+.sub-form-wrapper {
+  width: 50%;
+}
 
 @media(max-width:766px) {
   .sub-form-wrapper {

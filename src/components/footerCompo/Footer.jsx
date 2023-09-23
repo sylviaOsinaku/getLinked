@@ -10,7 +10,12 @@ import IconBxlLinkedin from "../../ui/Linkendin";
 import IconBxsPhoneCall from "../../ui/Phone";
 import IconLocationSharp from "../../ui/Location";
 import classes from "./Footer.module.css";
+import { animateScroll as scroll } from "react-scroll";
+import IconScroll from "../../ui/Scroll";
 function Footer() {
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
   return (
     <footer className={classes["footer-container"]}>
       <Container className="py-5 d-flex justify-content-between gap-5 my-5 flex-column flex-lg-row  align-items-start">
@@ -62,6 +67,12 @@ function Footer() {
           </p>
         </div>
       </Container>
+      <p className="text-center">All rights reserved. © getlinked Ltd</p>
+      <div className="text-end p-3 mb-3">
+        <span className={`${classes["scroll-wrapper"]} `} onClick={scrollToTop}>
+          <IconScroll />
+        </span>
+      </div>
     </footer>
   );
 }

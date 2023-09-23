@@ -24,6 +24,17 @@
   margin-bottom: .5em;
 }
 
+.scroll-wrapper {
+  background: rgb(255, 38, 185);
+  background: linear-gradient(70deg, rgba(255, 38, 185, 1) 0%, rgba(212, 52, 254, 1) 50%, rgba(144, 58, 255, 1) 100%);
+  color: #fff;
+  border: none;
+  padding: .8em 1em;
+  border-radius: 5px;
+  margin-bottom: 2em;
+  cursor: pointer;
+}
+
 @media(max-width:991px) {
   .footer-text-wrapper {
     width: 100%;
