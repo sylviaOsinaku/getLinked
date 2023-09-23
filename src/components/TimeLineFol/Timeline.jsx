@@ -1,13 +1,12 @@
-import React, { useEffect } from "react";
+import React from "react";
 import classes from "./Timeline.module.css";
 import { Container } from "react-bootstrap";
 import starPurple from "../../assets/star pu.svg";
 // importing aos
 
 function TimelineFile() {
-  
   return (
-    <div id="timeline" data-aos="fade-in">
+    <div id="timeline">
       <Container className="py-5">
         <center className="mb-3">
           {" "}
