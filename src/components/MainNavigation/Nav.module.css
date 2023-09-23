@@ -1,0 +1,31 @@
+.nav-wrapper a {
+  color: #fff !important;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.nav-wrapper {
+  align-items: center;
+}
+
+
+
+.nav-container {
+  border-bottom: 1px solid #903aff;
+  width: 100%;
+  padding: 1.2em 0em;
+}
+
+.nav-wrapper button {
+  background-color: #fff !important;
+}
+
+.register-btn {
+  background: rgb(255, 38, 185);
+  background: linear-gradient(70deg, rgba(255, 38, 185, 1) 0%, rgba(212, 52, 254, 1) 50%, rgba(144, 58, 255, 1) 100%);
+  color: #fff;
+  border: none;
+  padding: 1.2em 1.5em !important;
+  border-radius: 5px;
+
+}

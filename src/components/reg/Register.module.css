@@ -1,0 +1,63 @@
+.form-wrapper {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1.5em;
+  width: 100%;
+}
+
+.contact-text {
+  color: #d434fe;
+}
+
+.form-wrapper input,
+.form-wrapper select {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-bottom: 1.2em;
+  padding: 10px;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+
+}
+
+.form-wrapper option {
+  color: black;
+}
+
+.form-wrapper input::placeholder,
+.form-wrapper textarea::placeholder {
+  color: lightgray;
+}
+
+.read-btn {
+  background: rgb(255, 38, 185);
+  background: linear-gradient(70deg, rgba(255, 38, 185, 1) 0%, rgba(212, 52, 254, 1) 50%, rgba(144, 58, 255, 1) 100%);
+  color: #fff;
+  border: none;
+  padding: .8em 3em;
+  border-radius: 5px;
+  margin-bottom: 2em;
+}
+
+.review-text {
+  color: rgb(255, 38, 185);
+  margin-bottom: 1em;
+  font-size: .8rem;
+
+}
+
+.movement-wrapper-img {
+  border-bottom: 2px dotted #d434fe;
+
+}
+
+.sub-form-wrapper {
+  width: 100%;
+}
+
+@media(max-width:770px) {
+
+  .box-wrapper {
+    width: 100%;
+  }
+}

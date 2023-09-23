@@ -1,0 +1,65 @@
+.medal-wrapper img {
+  width: 50%;
+  transform: translateY(-40%);
+}
+
+.gold-wrapper img {
+  width: 70%;
+  transform: translateY(-40%);
+}
+
+.medal-wrapper {
+  border: 1px solid #d434fe;
+
+
+}
+
+.reward-text {
+  color: #903AFF;
+}
+
+.gold-wrapper {
+  border: 1px solid #903AFF;
+}
+
+.medal-wrapper,
+.gold-wrapper {
+
+  text-align: center;
+  border-radius: 5px;
+}
+
+.award-text-wrapper,
+.gold-wrapper {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+
+@media(max-width:1132px) {
+  .champ-img {
+    width: 100%;
+  }
+}
+
+.money-gold-text {
+  color: #903AFF;
+}
+
+.money-text {
+  color: #d434fe;
+}
+
+.money-text,
+.money-gold-text {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+@media(max-width:450px) {
+
+  .money-text,
+  .money-gold-text {
+    font-size: .8rem;
+  }
+}

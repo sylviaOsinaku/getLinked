@@ -1,0 +1,47 @@
+.form-wrapper {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1.5em;
+}
+
+
+
+.contact-text {
+  color: #d434fe;
+}
+
+.form-wrapper input,
+.form-wrapper textarea {
+  border: 1px solid #fff;
+  width: 100%;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 1.2em;
+  padding: 10px;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+
+}
+
+.form-wrapper input::placeholder,
+.form-wrapper textarea::placeholder {
+  color: #fff;
+}
+
+.read-btn {
+  background: rgb(255, 38, 185);
+  background: linear-gradient(70deg, rgba(255, 38, 185, 1) 0%, rgba(212, 52, 254, 1) 50%, rgba(144, 58, 255, 1) 100%);
+  color: #fff;
+  border: none;
+  padding: .8em 3em;
+  border-radius: 5px;
+  margin-bottom: 2em;
+}
+
+
+
+@media(max-width:766px) {
+  .sub-form-wrapper {
+    width: 100%;
+  }
+}

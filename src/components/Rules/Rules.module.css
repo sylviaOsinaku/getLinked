@@ -1,0 +1,14 @@
+.guideline-text {
+  color: #d434fe;
+}
+
+.rules-container {
+  border-bottom: 1px solid indigo;
+}
+
+
+@media(max-width:765px) {
+  .woman-check-img {
+    width: 100%;
+  }
+}

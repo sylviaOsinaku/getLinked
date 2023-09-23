@@ -1,0 +1,27 @@
+.partner-images-wrapper {
+  border: 1.5px solid #903AFF;
+  padding: 2em;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.partner-images-wrapper img {
+  width: 60%;
+}
+
+.partner-img {
+  padding: 1em 0em;
+  border-bottom: 5px solid #903AFF;
+  margin-bottom: 1em;
+}
+
+.partner-vertical-line-wrap span {
+  height: 100px;
+  width: 5px;
+  background-color: #903AFF;
+  display: block;
+  margin-bottom: 1em;
+}

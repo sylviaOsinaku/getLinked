@@ -1,0 +1,13 @@
+.text-hackathon {
+  color: #d434fe;
+}
+
+.detailed-wrapper {
+  border-bottom: 1px solid indigo;
+}
+
+@media(max-width:765px) {
+  .bigidea-img {
+    width: 100%;
+  }
+}

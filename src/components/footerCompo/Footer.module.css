@@ -1,0 +1,31 @@
+.footer-container {
+  margin: 5em 0em;
+  /* background-color: black; */
+}
+
+
+
+.terms-privacy-term {
+  padding-right: 1em;
+  border-right: 3.5px solid #903AFF;
+
+}
+
+.footer-container h4 {
+  color: #903AFF;
+  margin-bottom: .8.5em;
+}
+
+.footer-text-wrapper {
+  width: 50%
+}
+
+.footer-container ul li {
+  margin-bottom: .5em;
+}
+
+@media(max-width:991px) {
+  .footer-text-wrapper {
+    width: 100%;
+  }
+}

@@ -1,0 +1,68 @@
+.term-text {
+  color: #903AFF;
+}
+
+.privacy-wrapper {
+  padding: 2.2em;
+  border: 1px solid #903AFF;
+  border-radius: 5px;
+}
+
+.lock-img-wrapper {
+  position: relative;
+}
+
+
+
+.license-text {
+  color: #903AFF;
+  font-size: 1rem;
+}
+
+.lock-man-img {
+  position: absolute;
+  width: 80%;
+  top: 30%;
+}
+
+.read-more {
+  background: rgb(255, 38, 185);
+  background: linear-gradient(70deg, rgba(255, 38, 185, 1) 0%, rgba(212, 52, 254, 1) 50%, rgba(144, 58, 255, 1) 100%);
+  color: #fff;
+  border: none;
+  padding: .8em 3em;
+  border-radius: 5px;
+  margin-bottom: 2em;
+}
+
+
+@media(max-width:970px) {
+  .lock-img {
+    width: 50%;
+  }
+
+  .lock-man-img {
+    width: 50%;
+  }
+}
+
+@media(max-width:991px) {
+
+  .lock-img,
+  .lock-man-img {
+    width: 50%;
+
+  }
+
+  .lock-man-img {
+    top: 10%;
+    right: 30%;
+  }
+
+  .lock-img-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

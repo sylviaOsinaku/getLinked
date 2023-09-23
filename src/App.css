@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: rgb(144, 58, 255);
+  background: linear-gradient(90deg, rgba(144, 58, 255, 1) 0%, rgba(36, 19, 66, 1) 0%, rgba(44, 22, 81, 1) 11%, rgba(64, 29, 116, 1) 37%, rgba(42, 21, 77, 1) 83%, rgba(42, 21, 77, 1) 83%, rgba(31, 17, 57, 1) 92%, rgba(28, 16, 53, 1) 94%, rgba(27, 16, 51, 1) 97%, rgba(21, 14, 40, 1) 100%);
+  color: #fff !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+/* App.css */
+.fade-enter {
+  opacity: 0;
+  transform: translateY(10px);
+  /* Example: Slide in from below */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  /* Example: Slide to original position */
+  transition: opacity 300ms, transform 300ms;
 }
 
-.App-link {
-  color: #61dafb;
+.fade-exit {
+  opacity: 1;
+  transform: translateY(0);
+  /* Example: Slide to original position */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fade-exit-active {
+  opacity: 0;
+  transform: translateY(10px);
+  /* Example: Slide out to below */
+  transition: opacity 300ms, transform 300ms;
 }

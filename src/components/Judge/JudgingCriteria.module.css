@@ -1,0 +1,47 @@
+.judging-img-peps {
+  width: 500px;
+}
+
+.key-text {
+  color: #d434fe;
+}
+
+.judging-list-wrapper {
+  list-style-type: none;
+  text-align: start;
+}
+
+.judging-list-wrapper span {
+  color: rgba(255, 38, 185, 1);
+  font-weight: 600;
+}
+
+.read-btn {
+
+  background: rgb(255, 38, 185);
+  background: linear-gradient(70deg, rgba(255, 38, 185, 1) 0%, rgba(212, 52, 254, 1) 50%, rgba(144, 58, 255, 1) 100%);
+  color: #fff;
+  border: none;
+  padding: .8em 3em;
+  border-radius: 5px;
+
+
+
+
+
+}
+
+.judge-criteria-wrapper {
+  border-bottom: 1px solid indigo;
+}
+
+
+@media(max-width:990px) {
+  .judging-img-peps {
+    width: 80%;
+  }
+
+  .judging-list-wrapper {
+    text-align: center;
+  }
+}
