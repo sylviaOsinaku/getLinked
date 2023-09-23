@@ -59,6 +59,11 @@
   position: relative;
 }
 
+.box-wrapper {
+  width: 50%;
+
+}
+
 @media(max-width:770px) {
 
   .box-wrapper {
